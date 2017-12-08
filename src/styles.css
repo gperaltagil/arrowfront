@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+.loginPanel {
+  width: 30%;
+  margin: auto;
+}
+
+button{
+    cursor: pointer;
+    cursor: hand;
+}
+
+@media only screen and (max-width: 500px) {
+  .loginPanel {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 501px) {
+  .loginPanel {
+    width: 50%;
+    margin: auto;
+  }
+}
